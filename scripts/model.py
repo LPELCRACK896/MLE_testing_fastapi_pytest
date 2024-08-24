@@ -37,19 +37,14 @@ class Model:
         self.clf.fit(self.X, self.y)
 
     def dump(self, directory_to_save_model: str):
-        """
-        Saves the trained model to the specified path.
-        """
+
         if self.clf is None:
             raise ValueError("You must build the model before dumping it.")
         
-        # Ensure the directory exists
         os.makedirs(directory_to_save_model, exist_ok=True)
         
-        # Full path including the filename with extension
         full_model_path = os.path.join(directory_to_save_model, f"{self.name}.pkl")
 
-        # Save the model
         joblib.dump(self.clf, full_model_path)
         print(f"Model saved to {full_model_path}")
 
