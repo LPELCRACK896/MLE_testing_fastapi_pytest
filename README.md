@@ -1,6 +1,4 @@
-# Proyecto de Predicción de Pasajeros
-
-Este proyecto implementa un modelo de machine learning para la predicción de características de pasajeros, encapsulado en una API desarrollada con FastAPI. El proyecto está estructurado para soportar tanto el desarrollo interactivo como la producción, utilizando ambientes Python diferenciados para cada propósito.
+# Testing en proyectos de ML
 
 ## Autores
 
