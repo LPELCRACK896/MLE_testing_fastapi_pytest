@@ -59,7 +59,7 @@ cd /tests
 ```
 
 ```bash
-pytest test.py --junitxml=report.xmlte
+pytest test.py --junitxml=report.xml
 ```
 
 ### 4. Creación y Entrenamiento del Modelo
