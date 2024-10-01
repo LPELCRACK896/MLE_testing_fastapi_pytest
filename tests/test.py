@@ -38,3 +38,4 @@ async def test_predict():
     assert len(json_response["predictions"]) == len(passengers)
     
     logging.info("test_predict passed successfully")
+    print('TEST FINALIZADO')

@@ -1,6 +1,17 @@
 # Descripción del Workflow de CI/CD
 Este documento proporciona una explicación detallada del workflow de CI/CD definido en `ci-cd-app.yml`. Este workflow está diseñado para automatizar el proceso de construcción, etiquetado y despliegue de una imagen Docker en Amazon Elastic Container Registry (ECR), así como para actualizar instancias en AWS mediante AWS Systems Manager (SSM).
 
+**GRUPO:**  
+Juan Angel Carrera 20593  
+Juan Carlos Baján 20109  
+José Mariano Reyes 20074  
+Esteban Aldana Guerra 20591  
+Luis Pedro Gonzalez Aldana 20008  
+
+**REPO**  
+[README](https://github.com/LPELCRACK896/MLE_testing_fastapi_pytest/tree/main/.github/workflows)
+
+
 ## Desencadenadores del Workflow
 El workflow se ejecuta automáticamente cuando se realiza un push en la rama `main` del repositorio:
 
