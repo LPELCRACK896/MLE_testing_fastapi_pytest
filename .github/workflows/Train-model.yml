@@ -42,7 +42,7 @@ jobs:
       # Step 7: Run tests using pytest
       - name: Run tests
         run: |
-          pytest tests/
+          pytest test/test.py --junitxml=report.xml
 
       # Optional: Collect test results
       - name: Upload Test Results
